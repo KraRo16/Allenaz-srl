@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Allenaz-srl/static/css/main.7acaea2f.css",
+    "main.js": "/Allenaz-srl/static/js/main.698d4e49.js",
+    "index.html": "/Allenaz-srl/index.html",
+    "main.7acaea2f.css.map": "/Allenaz-srl/static/css/main.7acaea2f.css.map",
+    "main.698d4e49.js.map": "/Allenaz-srl/static/js/main.698d4e49.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.698d4e49.js"
+  ]
+}
