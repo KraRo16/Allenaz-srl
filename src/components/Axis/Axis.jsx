@@ -7,49 +7,45 @@ const Axis = () => {
       <h1>Allenaz srl</h1>
       <h2>Axis</h2>
       <div className={style.axis_item}>
-        <ul className={style.axis_list}>
-          <li className={style.axis_list_item}>
-            <p>Axis 1</p>
-          </li>
-          <li className={style.axis_list_item}>
-            <p>Axis 2</p>
-          </li>
-          <li className={style.axis_list_item}>
-            <p>Axis 3</p>
-          </li>
-          <li className={style.axis_list_item}>
-            <p>Axis 4</p>
-          </li>
-          <li className={style.axis_list_item}>
-            <p>Axis 5</p>
-          </li>
-        </ul>
         <table className={style.table}>
-          <tbody>
-            <tr className={style.table_col}>
-              <th className={style.table_col_item}>1</th>
-              <th className={style.table_col_item}>2</th>
-              <th className={style.table_col_item}>3</th>
+          <thead className={style.table_head}>
+            <tr className={style.table_head_col}>
+              <td className={style.table_head_col_item}>Axis</td>
+              <td className={style.table_head_col_item}>Byte</td>
+              <td className={style.table_head_col_item}>Position</td>
+              <td className={style.table_head_col_item}>Status</td>
             </tr>
-            <tr className={style.table_col}>
-              <th className={style.table_col_item}>1</th>
-              <th className={style.table_col_item}>2</th>
-              <th className={style.table_col_item}>3</th>
+          </thead>
+          <tbody className={style.table_body}>
+            <tr className={style.table_body_col}>
+              <td className={style.table_body_col_item}>Axis 1</td>
+              <td className={style.table_body_col_item}>2 </td>
+              <td className={style.table_body_col_item}>3 </td>
+              <td className={style.table_body_col_item}>3 </td>
             </tr>
-            <tr className={style.table_col}>
-              <th className={style.table_col_item}>1</th>
-              <th className={style.table_col_item}>2</th>
-              <th className={style.table_col_item}>3</th>
+            <tr className={style.table_body_col}>
+              <td className={style.table_body_col_item}>Axis 2</td>
+              <td className={style.table_body_col_item}>2 </td>
+              <td className={style.table_body_col_item}>3 </td>
+              <td className={style.table_body_col_item}>3 </td>
             </tr>
-            <tr className={style.table_col}>
-              <th className={style.table_col_item}>1</th>
-              <th className={style.table_col_item}>2</th>
-              <th className={style.table_col_item}>3</th>
+            <tr className={style.table_body_col}>
+              <td className={style.table_body_col_item}>Axis 3</td>
+              <td className={style.table_body_col_item}>2 </td>
+              <td className={style.table_body_col_item}>3 </td>
+              <td className={style.table_body_col_item}>3 </td>
             </tr>
-            <tr className={style.table_col}>
-              <th className={style.table_col_item}>1</th>
-              <th className={style.table_col_item}>2</th>
-              <th className={style.table_col_item}>3</th>
+            <tr className={style.table_body_col}>
+              <td className={style.table_body_col_item}>Axis 4</td>
+              <td className={style.table_body_col_item}>2 </td>
+              <td className={style.table_body_col_item}>3 </td>
+              <td className={style.table_body_col_item}>3 </td>
+            </tr>
+            <tr className={style.table_body_col}>
+              <td className={style.table_body_col_item}>Axis 5</td>
+              <td className={style.table_body_col_item}>2 </td>
+              <td className={style.table_body_col_item}>3 </td>
+              <td className={style.table_body_col_item}>3 </td>
             </tr>
           </tbody>
         </table>

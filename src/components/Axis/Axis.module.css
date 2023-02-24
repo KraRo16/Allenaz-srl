@@ -1,36 +1,85 @@
-.axis{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
+.axis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 120px;
+  /* justify-items: center; */
 }
-.axis_item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.axis_list{
-
-}
-
-.axis_list_item{
-    list-style: none;
-        margin-top: 15px;
-            margin-bottom: 15px;
+.axis_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  /* margin-left: 44px;
+  margin-right: 44px; */
 }
 
-.table{
-    border-collapse: collapse;
+
+.axis_list_item {
+  list-style: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-.table_col{
-    padding: 10px;
-    border: 1px solid #2a2a2a;
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 4px;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 4px 4px 0 0;
+  background: #2e82c3;
+  border: 1px solid #2e82c3;
+  border-radius: 4px;
+  background: #cbdfef;
+  background: #a2c3dd;
+  transition-duration: 0.2s;
 }
 
-.table_col_item{
-padding: 10px;
-    border: 1px solid #2a2a2a;
+/* table head style */
+
+.table_head{
+    color: #ffffff;
+        font-weight: bold;
+        border-radius: 4px 4px 0 0;
+            background: #2e82c3;
+}
+
+.table_head_col {
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 4px 4px 0 0;
+    background: #2e82c3;
+}
+
+.table_head_col_item {
+    border-radius: 4px 4px 0 0;
+    background: #2e82c3;
+}
+
+/* table body style */
+
+.table_body{
+    border: 1px solid #2e82c3;
+        border-radius: 4px;
+        background: #cbdfef;
+}
+
+.table_body_col {
+    border: 1px solid #2e82c3;
+    border-radius: 4px;
+    background: #cbdfef;
+}
+
+.table_body_col_item{
+    border: 1px solid #2e82c3;
+        border-radius: 4px;
+        background: #cbdfef;
+}
+
+.table_body_col_item:hover{
+    background: #a2c3dd;
+        transition-duration: 0.2s;
 }
