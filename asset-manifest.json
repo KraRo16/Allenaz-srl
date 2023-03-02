@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Allenaz-srl/static/css/main.1c9565e2.css",
-    "main.js": "/Allenaz-srl/static/js/main.2a9bd6dc.js",
+    "main.css": "/Allenaz-srl/static/css/main.6c4ee2b1.css",
+    "main.js": "/Allenaz-srl/static/js/main.fb024446.js",
     "index.html": "/Allenaz-srl/index.html",
-    "main.1c9565e2.css.map": "/Allenaz-srl/static/css/main.1c9565e2.css.map",
-    "main.2a9bd6dc.js.map": "/Allenaz-srl/static/js/main.2a9bd6dc.js.map"
+    "main.6c4ee2b1.css.map": "/Allenaz-srl/static/css/main.6c4ee2b1.css.map",
+    "main.fb024446.js.map": "/Allenaz-srl/static/js/main.fb024446.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c9565e2.css",
-    "static/js/main.2a9bd6dc.js"
+    "static/css/main.6c4ee2b1.css",
+    "static/js/main.fb024446.js"
   ]
 }
